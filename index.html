@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">アマルジット シング</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">
+                            <i class="fas fa-home nav-link-icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <i class="fas fa-user nav-link-icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <i class="fas fa-file-alt nav-link-icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">
+                            <i class="fas fa-briefcase nav-link-icon"></i> Achivements
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">
+                            <i class="fas fa-image nav-link-icon"></i> Reviewer
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="fas fa-envelope nav-link-icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="fas fa-times nav-close" id="nav-close"></i>
+            </div>
+            <div class="nav-btns">
+
+                <!-- Theme change button -->
+                <i class="fas fa-moon change-theme" id="theme-button"></i>
+
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="fas fa-qrcode"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- HOME -->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-content grid">
+                    <div class="home-social">
+                        <a href="https://www.linkedin.com/in/amarjit-singh-kalsy/" target="_blank" class="home-social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://dribbble.com/" target="_blank" class="home-social-icon">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                        <a href="https://github.com/" target="_blank" class="home-social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="home-img">
+                        <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home-blob-img" x='12' y='18' xlink:href="img/perfil.png" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="home-data">
+                        <h1 class="home-data-title">Hi, I'am    <n>Dr. Amarjit Singh</n> </h1>
+                        <h3 class="home-data-subtitle">Postdoctoral Researcher</h3>
+                        <p class="home-data-description">Working in RCCS-High Performance Big Data Research Team, JAPAN
+                            </p>
+                        <a href="#contact" class="button button-flex">
+                            Contact Me <i class="fab fa-telegram-plane button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-scroll">
+                    <a href="#about" class="home-scroll-button button-flex">
+                        <span class="home-scroll-button-name">Scroll down</span>
+                        <i class="fas fa-arrow-down home-scroll-button-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <span class="section-subtitle">My introduction</span>
+
+            <div class="about-container container grid">
+                <div class="about-container-img">
+                    <img src="img/about.png" alt="About" class="about-container-imgAlt">
+                </div>
+
+                <div class="about-container-data">
+                    <p class="about-container-data-description">Collaborate with industry and research institutions towards learning and cocreation of contents in the fields of ANN, Wireless Networks, Deep Learning. </p>
+
+                    <div class="about-container-data-info">
+                        <div>
+                            <span class="about-container-data-info-title">11+</span>
+                            <span class="about-container-data-name">Years <br> experience</span>
+                        </div>
+                        <div>
+                            <span class="about-container-data-info-title">07+</span>
+                            <span class="about-container-data-name">Completed <br> project</span>
+                        </div>
+                        <div>
+                            <span class="about-container-data-info-title">06+</span>
+                            <span class="about-container-data-name">Companies <br> worked</span>
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+                        <a download="" href="pdf/Alexa-Cv.pdf" class="button button-flex">
+                            Download CV <i class="fas fa-download button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <span class="section-subtitle">My technical level</span>
+
+            <div class="skills-container container grid">
+                <div>
+                    <!-- SKILLS 1 -->
+                    <div class="skills-container-content skills-open">
+
+                        <div class="skills-container-header">
+                            <i class="fas fa-code skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Postdoctoral Researcher</h1>
+                                <span class="skills-subtitle">More than 4 years</span>
+                            </div>
+                            <i class="fas fa-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">C/C++</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Python</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">JavaScript</h3>
+                                    <span class="skills-number">60%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">MATLAB</h3>
+                                    <span class="skills-number">85%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-react"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- SKILLS 2 -->
+                    <div class="skills-container-content skills-close">
+
+                        <div class="skills-container-header">
+                            <i class="fas fa-server skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Education Cooperate Training</h1>
+                                <span class="skills-subtitle">More than 2 years</span>
+                            </div>
+                            <i class="fas fa-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Red Hat Linux Administration</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-php"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Hardware</h3>
+                                    <span class="skills-number">70%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-node"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Software</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-firebase"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Training</h3>
+                                    <span class="skills-number">55%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-python"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <!-- SKILLS 3 -->
+                    <div class="skills-container-content skills-close">
+
+                        <div class="skills-container-header">
+                            <i class="fas fa-swatchbook skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">IT/NETWORKS</h1>
+                                <span class="skills-subtitle">More than 5 years</span>
+                            </div>
+                            <i class="fas fa-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Linux</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-figma"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Network Security</h3>
+                                    <span class="skills-number">85%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-sketch"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Cloud Services</h3>
+                                    <span class="skills-number">85%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-ps"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- QUALIFICATION -->
+        <section class="qualification section">
+            <h2 class="section-title">Qualification</h2>
+            <span class="section-subtitle">My personel journey</span>
+
+            <div class="qualification-container container">
+                <div class="qualification-tabs">
+                    <div class="qualification-tabs-button button-flex qualification-active" data-target="#education">
+                        <i class="fas fa-graduation-cap qualification-icon"></i>
+                        Education
+                    </div>
+                    <div class="qualification-tabs-button button-flex" data-target="#work">
+                        <i class="fas fa-briefcase qualification-icon"></i>
+                        Work
+                    </div>
+                </div>
+                <div class="qualification-sections">
+                    <!-- QUALIFICATION CONTENT 1 -->
+                    <div class="qualification-content qualification-active" data-content id="education">
+                        <!-- QUALIFICATION 1 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Ph.D.</h3>
+                                <span class="qualification-subtitle">IKG Punjab Technical University, INDIA</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2013 - 2022
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 2 -->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Masters in Network Protocol & Design</h3>
+                                <span class="qualification-subtitle"> Guru Nanak Dev University, INDIA </span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2006 - 2008
+                                </div>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 3 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Bachelors in Information Technology</h3>
+                                <span class="qualification-subtitle">Guru Nanak Dev University, INDIA</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2003 - 2006
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 4 -->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <!-- <span class="qualification-line"></span> -->
+                            </div>
+
+                          <div class="qualification-data-alt">
+                            <h3 class="qualification-title"></h3>
+                                <span class="qualification-subtitle"></span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- QUALIFICATION CONTENT 2 -->
+                    <div class="qualification-content" data-content id="work">
+                        <!-- QUALIFICATION 1 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Postdoctoral Researcher </h3>
+                                <span class="qualification-subtitle">Riken - Kobe, JAPAN</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    Nov - To Present
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 2 -->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">IT Administrator</h3>
+                                <span class="qualification-subtitle">JASPO WORLDWIDE - INDIA</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2020 - 2022
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- QUALIFICATION 3 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Team Leader</h3>
+                                <span class="qualification-subtitle">Hitachi Systems Micro Clinic Pvt Ltd - INDIA </span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2016 - 2017
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                         <!-- QUALIFICATION 4 -->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Assistant Professor</h3>
+                                <span class="qualification-subtitle">CT Group of Institutions - INDIA</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2011 - 2016
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- QUALIFICATION 5 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Technical Trainer</h3>
+                                <span class="qualification-subtitle">HCL Infosystems - INDIA </span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2009 - 2011
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 4 -->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Network Administrator</h3>
+                                <span class="qualification-subtitle">Click Engg Inc - USA, Seattle</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2008 - 2009
+                                </div>
+
+                            </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services section" id="services">
+            <h2 class="section-title">Achivements</h2>
+            <span class="section-subtitle">What i did</span>
+
+            <div class="services-container container grid">
+                <!-- SERVICES 1 -->
+                <div class="services-content">
+                    <div>
+                        <i class="fas fa-border-all services-icon"></i>
+                        <h3 class="services-title">Ph.D Research Topic <br> </h3>
+                    </div>
+
+                    <span class="button button-flex button-small button-link services-button">
+                        View More
+                        <i class="fas fa-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-modal">
+                        <div class="services-modal-content">
+                            <h4 class="services-modal-title">Topic Summary <br> </h4>
+                            <i class="fas fa-times services-modal-close"></i>
+
+                            <div class="services-modal-services grid">
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Quality of Services in Mobile Ad Hoc Networks using ANN.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Enhancement of QoS in MANET using Artificial Neural Networks.
+Algorithm developed for End-to-End Delay and Energy Efficiency with
+combination of MANETs protocols. Comparison plots are also developed for
+result analysis.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Tool Used: MATLAB R2013a</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Coursework includes: Research Methodology, Network Security and
+Infrastructure. </p>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SERVICES 2 -->
+                <div class="services-content">
+                    <div>
+                        <i class="fas fa-arrows-alt-h services-icon"></i>
+                        <h3 class="services-title">Publications<br> </h3>
+                    </div>
+
+                    <span class="button button-flex button-small button-link services-button">
+                        View More
+                        <i class="fas fa-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-modal">
+                        <div class="services-modal-content">
+                            <h4 class="services-modal-title">Publication Summary<br> </h4>
+                            <i class="fas fa-times services-modal-close"></i>
+
+                            <div class="services-modal-services grid">
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>1. “End to end Delay using AODV-Neural Networks to Improve Performance of
+Manets” International Journal of Recent Technology and Engineering (IJRTE),
+Elsevier and Scopus indexed journal, VOL 7.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>2. “Comparative Study on Routing Protocol in Mobile Ad Hoc Networks using Soft
+Computing Techniques” IJCSE, Vol.7, Issue.2, pp.859-867, Feb-2019.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>3. “Energy-Efficiency in Mobile Ad hoc Network using Artificial Neural Networks,”
+Int. J. Res. Electron. Comput. Eng., vol. 7, no. 2, pp. 922–926, 2019.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>4. “Performance Improvement in AODV Routing Protocol Using Artificial
+Intelligence” 3rd International Conference on Computing for Sustainable Global
+Development, IEEE, March 2016.</p>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SERVICES 3 -->
+                <div class="services-content">
+                    <div>
+                        <i class="fas fa-pencil-alt services-icon"></i>
+                        <h3 class="services-title"><br> Certifications</h3>
+                    </div>
+
+                    <span class="button button-flex button-small button-link services-button">
+                        View More
+                        <i class="fas fa-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-modal">
+                        <div class="services-modal-content">
+                            <h4 class="services-modal-title">Certification Summary<br> </h4>
+                            <i class="fas fa-times services-modal-close"></i>
+
+                            <div class="services-modal-services grid">
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Earned the title Red Hat Certified Engineer (RHCE) global certification number
+is 805009247042747.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p> Earned the level of HCL Certified Engineer.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Courseracertification on “Cloud Computing Basics (Cloud IoT), Learn Quest”.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Courseracertification on “Google Cloud Platform Fundamental for AWS
+Professionals, Google Cloud”.</p>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Reviewer</h2>
+            <span class="section-subtitle">Most recent work</span>
+
+            <div class="portfolio-container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- PORTFOLIO 1 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio1.jpg" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">ICKE 2019</h3>
+                            <p class="portfolio-description">Technical Committee Member in upcoming 5th International Conference on Knowledge Engineering.</p>
+                            <a href="#" class="button button-flex button-small portfolio-button">
+                                Contact <i class="fas fa-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 2 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio2.jpg" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">ICIET 2019</h3>
+                            <p class="portfolio-description">Technical Committee Member in upcoming 7th International Conference on Information and Education Technology.</p>
+                            <a href="#" class="button button-flex button-small portfolio-button">
+                                Contact <i class="fas fa-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 3 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio3.jpg" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">ICIET Tokyo</h3>
+                            <p class="portfolio-description">Nominated reviewer by ICIET Organizing Committee which is held 2016 Tokyo.</p>
+                            <a href="#" class="button button-flex button-small portfolio-button">
+                                Contact <i class="fas fa-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrow -->
+                <div class="swiper-button-next">
+                    <i class="fas fa-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fas fa-angle-left swiper-portfolio-icon"></i>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- PROJECT IN MIND -->
+        <section class="project section">
+            <div class="project-bg">
+                <div class="project-container container grid">
+                    <div class="project-data">
+                        <h2 class="project-bg-title">You have a new project</h2>
+                        <p class="project-bg-description">Contact and Start Devlopment<br> new project.</p>
+                        <a href="#contact" class="button button-flex button-white">
+                            Contact Me
+                            <i class="fab fa-telegram-plane project-icon button-icon"></i>
+                        </a>
+                    </div>
+                    <img src="img/project.png" alt="Project img" class="project-bg-img">
+                </div>
+            </div>
+        </section>
+
+       
+
+        <!-- CONTACT ME -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <span class="section-subtitle">Get in touch</span>
+
+            <div class="contact-container container grid">
+                <div class="contact-items">
+                    <div class="contact-information">
+                        <i class="fas fa-phone contact-icon"></i>
+
+                        <div>
+                            <h3 class="contact-title">Call Me</h3>
+                            <span class="contact-subtitle">8047341248</span>
+                        </div>
+                    </div>
+                    <div class="contact-information">
+                        <i class="far fa-envelope contact-icon"></i>
+
+                        <div>
+                            <h3 class="contact-title">Email</h3>
+                            <span class="contact-subtitle">amarjitsingh@riken.jp</span>
+                        </div>
+                    </div>
+                    <div class="contact-information">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+
+                        <div>
+                            <h3 class="contact-title">Location</h3>
+                            <span class="contact-subtitle">RIKEN Center for Computational Science (RIKEN R-CCS) 7-1-26 Minatojima-minami-machi, Chuo-ku, Kobe, Hyogo 650-0047, Japan</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact-form grid">
+                    <div class="contact-inputs grid">
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Name</label>
+                            <input type="text" class="contact-input">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Email</label>
+                            <input type="email" class="contact-input">
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Project</label>
+                            <input type="text" class="contact-input">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Message</label>
+                            <textarea style="resize: none;" rows="5" class="contact-input"></textarea>
+                        </div>
+                    </div>
+                </form>
+                <div class="contact-button">
+                    <a href="#" class="button button-flex">
+                        Send Message <i class="fab fa-telegram-plane button-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-container container grid">
+                <div class="footer-texts">
+                    <h1 class="footer-title">Dr. Amarjit Singh</h1>
+                    <span class="footer-subtitle">Postdoc Researcher</span>
+                </div>
+
+                <ul class="footer-links">
+                    <li>
+                        <a href="#services" class="footer-link">Achivements</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer-link">Reviewer</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer-link">Contact Me</a>
+                    </li>
+                </ul>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook-f footer-social"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <i class="fab fa-twitter footer-social"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fab fa-instagram footer-social"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer-copy">&#169; Amarjit Singh. All right reserved</p>
+        </div>
+    </footer>
+
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup-icon"></i>
+    </a>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/027d3564f6.js" crossorigin="anonymous"></script>
+
+    <!-- SWIPER JS -->
+    <script src="js/swiper-bundle.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
